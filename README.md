@@ -1,6 +1,7 @@
 # Project Submission
 
-A lightweight Project extracted from `project_submission.zip`.
+국민은행 공모전을 위해 만든 MVP 정도의 코드입니다.
+파일 전체를 다운 받으시고 INDEX.HTML에서 개발 환경 터미널에 밑의 코드를 입력하여 실행시키시면 됩니다.
 
 ## Project Structure
 ```text
@@ -41,10 +42,6 @@ pnpm install
 npm run start
 # or build
 npm run build
-```
-## Testing
-```bash
-pytest -q
 ```
 
 ## Notes
