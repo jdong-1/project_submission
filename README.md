@@ -1,30 +1,52 @@
-# QR 코드 생성기 (React + Vite + Tailwind)
+# Project Submission
 
-## 📌 프로젝트 소개
-간단한 QR 코드 생성 웹 애플리케이션입니다.
-사용자가 입력한 텍스트를 QR 코드 이미지로 변환합니다.
+A lightweight Project extracted from `project_submission.zip`.
 
-## 🚀 실행 방법
-### 1. 설치
+## Project Structure
+```text
+├── .bolt
+│   ├── config.json
+│   ├── prompt
+├── src
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── QRGenerator.tsx
+│   ├── vite-env.d.ts
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
+
+## Quickstart
+### Install
 ```bash
+# Install dependencies
 npm install
+# or
+pnpm install
 ```
-
-### 2. 개발 서버 실행
+### Run
 ```bash
-npm run dev
-```
-
-### 3. 빌드
-```bash
+# Start
+npm run start
+# or build
 npm run build
 ```
+## Testing
+```bash
+pytest -q
+```
 
-## 📂 폴더 구조
-- `src/` : 주요 React 컴포넌트
-- `dist/` : 빌드 결과물
-- `vite.config.ts` : Vite 설정
-- `tailwind.config.js` : Tailwind CSS 설정
-
-## 📜 라이선스
-MIT
+## Notes
+- Replace placeholders as needed.
+- Fill in detailed description, data sources, and license.
